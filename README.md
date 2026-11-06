@@ -58,7 +58,7 @@ The soil, options, SmartDispense, dryer-sheet and energy rows only show when you
 ## Requirements
 
 - Your washer and/or dryer in the **SmartHQ** app on your phone.
-- **[GE Home (SmartHQ)](https://github.com/simbaja/ha_gehome)** version 2025.12 or newer, added with Add from link in Marketplace (a custom repository in HACS before 2026.11). Restart Home
+- **[GE Home (SmartHQ)](https://github.com/simbaja/ha_gehome)** version 2025.12 or newer. Add from link in Marketplace (a custom repository in HACS before 2026.11). Restart Home
   Assistant, then add **GE Home (SmartHQ)** under **Settings → Devices & services**.
 
 ## Install
