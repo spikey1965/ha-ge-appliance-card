@@ -58,14 +58,22 @@ The soil, options, SmartDispense, dryer-sheet and energy rows only show when you
 ## Requirements
 
 - Your washer and/or dryer in the **SmartHQ** app on your phone.
-- **[GE Home (SmartHQ)](https://github.com/simbaja/ha_gehome)** version 2025.12 or newer, from HACS. Restart Home
+- **[GE Home (SmartHQ)](https://github.com/simbaja/ha_gehome)** version 2025.12 or newer, added with Add from link in Marketplace (a custom repository in HACS before 2026.11). Restart Home
   Assistant, then add **GE Home (SmartHQ)** under **Settings → Devices & services**.
 
 ## Install
 
-**HACS:** HACS → ⋮ → Custom repositories → add `https://github.com/spikey1965/ha-ge-appliance-card`, type **Dashboard**.
-Then find "GE Appliance Card", download it, and reload the browser. While it's a pre-release, open it in HACS
-and switch on "Show beta versions" if it isn't offered.
+### Marketplace (recommended)
+
+1. Go to **Settings → Marketplace** and click **Add from link**. This asks you to connect GitHub.
+2. Paste `https://github.com/spikey1965/ha-ge-appliance-card` and choose the type **Dashboard** if asked.
+3. Find **GE Appliance Card** under **New**, open it and click **Install**. Reload your browser.
+
+Because it's a beta, Marketplace shows a short code such as `f5fa069` instead of a version number, which is normal. To get the numbered beta instead, open the **⋮ menu → Include pre-releases → Include** before you install.
+
+The first time you use Marketplace, tick **I understand the risks and agree** and click **Continue**.
+
+**On a version older than 2026.11?** Marketplace is still called HACS there. Use **Download** in place of Install and **⋮ → Custom repositories** in place of Add from link.
 
 **Manual:** copy `ge-appliance-card.js` to `/config/www/`, then add a dashboard resource
 (Settings → Dashboards → ⋮ → Resources): `/local/ge-appliance-card.js?v=0.2.0`, type **JavaScript module**.
