@@ -3,6 +3,8 @@
 A washer, tumble dryer and washer dryer card for **GE Appliances** machines (**GE, GE Profile, Café**) that use the
 [GE Home (SmartHQ)](https://github.com/simbaja/ha_gehome) integration.
 
+📖 **Full guide with screenshots and a live demo:** [GE washer and dryer card for Home Assistant](https://mymediabuild.uk/home-assistant-ge-washer-dryer-card/)
+
 The machine is drawn on the card with a progress ring round the door, the time left on its display, and the
 laundry turning while it runs. When Remote Enable is on, you can start the cycle you chose on the machine from the card.
 
